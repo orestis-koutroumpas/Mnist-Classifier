@@ -86,7 +86,7 @@ Execute the Python script to train the model and view the results:
 The script will:
 
 - Load and preprocess the MNIST dataset (only digits 0 and 8).
-- Train two neural networks, one with Cross-Entropy loss and one with Exponential loss.
+- Create and train two neural networks, one with Cross-Entropy loss function and the other with Exponential loss function.
 - Plot the training loss and smoothed loss over epochs.
 - Evaluate the model on the test set and report error rates for digits 0 and 8.
 
