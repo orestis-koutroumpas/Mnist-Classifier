@@ -19,9 +19,10 @@ The neural network has the following architecture:
 **MNIST Dataset**: The dataset contains 5500 images per numeral (digit 0 and digit 8), each of size 28x28 pixels with gray intensity values between 0 and 255.
 
 <p align="center">
-  <img src="screenshots/zero.png" width="49%" height=50% alt="0">
-  <img src="screenshots/eight.png" width="49%" height="50%" alt="8">
+  <img src="screenshots/zero.png" width="300" height="300" alt="0">
+  <img src="screenshots/eight.png" width="300" height="300" alt="8">
 </p>
+
 
 **Image Preprocessing**: The pixel intensity values are normalized to the range [0,1] by dividing each pixel value by 255.
 
