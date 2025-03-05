@@ -87,25 +87,31 @@ The script will:
 
 After running the code, the terminal will show the loss per epoch for each network, and at the end, you'll see the error percentages for both digits:
 
-1. Cross-Entropy Loss over Epochs
+#### 1. Cross-Entropy Loss over Epochs
 
 This graph shows the progression of the loss for the Cross-Entropy method. The loss decreases as the neural network learns to classify digits 0 and 8.
 
-<div style="text-align: center;">
-  <img src="screenshots/cross_entropy_loss.png" width="80%" height="80%" alt="Cross-Entropy Loss">
-</div>
+<p align="center"> 
+<img src="screenshots/cross_entropy_loss.png" width="80%" height="80%" alt="Cross-Entropy Loss"> 
+</p>
 
-2. Exponential Loss over Epochs
+#### 2. Exponential Loss over Epochs
 
-This graph shows the progression of the loss for the Exponential method. Similar to the Cross-Entropy loss, the Exponential loss decreases as the model trains.
+This graph illustrates the loss progression for the Exponential method. Similar to the Cross-Entropy loss, the Exponential loss decreases over time, suggesting that the model is improving its classification of digits 0 and 8.
 
-<div style="text-align: center;">
-  <img src="screenshots/exponential_loss.png" width="80%" height="80%" alt="Exponential Loss">
-</div>
+<p align="center"> 
+<img src="screenshots/exponential_loss.png" width="80%" height="80%" alt="Exponential Loss"> 
+</p>
 
-```
-Epoch 0, Loss: 0.5974, Smoothed Loss: 0.5974
+#### 3. Terminal Output Example
+
+As the model trains, the terminal will show the following output for each epoch. The loss for each epoch and the smoothed loss will be displayed, helping you track the training progress
+
+```Epoch 0, Loss: 0.5974, Smoothed Loss: 0.5974
 Epoch 1, Loss: 0.5687, Smoothed Loss: 0.5831
-...
-Cross-Entropy: Error Percentage for 0 = 0.51 %, Error Percentage for 8 = 0.72 %, Total = 0.61 %
-Exponential: Error Percentage for 0 = 1.22 %, Error Percentage for 8 = 0.72 %, Total = 0.97 %
+...```
+
+Once training is complete, the error percentages for both digits (0 and 8) will be computed. Here's an example of the final output:
+
+```Cross-Entropy: Error Percentage for 0 = 0.51 %, Error Percentage for 8 = 0.72 %, Total = 0.61 %
+Exponential: Error Percentage for 0 = 1.22 %, Error Percentage for 8 = 0.72 %, Total = 0.97 %```
