@@ -91,7 +91,7 @@ After running the code, the terminal will show the loss per epoch for each netwo
 
 This graph shows the progression of the loss for the Cross-Entropy method. The loss decreases as the neural network learns to classify digits 0 and 8.
 
-<img src="screenshots/cross_entropy_loss.png" width="80%" height="80%" alt="Cross-Entropy Loss">
+<img src="screenshots/cross_entropy_loss.png" align="center" width="80%" height="80%" alt="Cross-Entropy Loss">
 
 2. Exponential Loss over Epochs
 
