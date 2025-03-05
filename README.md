@@ -69,7 +69,8 @@ To run the project, you need Python 3.x installed and the following Python packa
 
 ```
 git clone https://github.com/orestis-koutroumpas/Mnist-Classifier.git
-cd Mnist-Classifier ```
+cd Mnist-Classifier 
+```
 
 ### 2. Run the Code:
 
