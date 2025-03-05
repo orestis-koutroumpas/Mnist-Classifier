@@ -45,7 +45,7 @@ The neural network has the following architecture:
 ### Optimization:
 The model is trained using Gradient Descent. The gradients are computed and the weights are updated using the ADAM method, which helps achieve uniform convergence during training.
 
-#### Features
+## Features
 
 **Training**: The model is trained using both Cross-Entropy and Exponential loss functions to compare the performance of each method.
 
@@ -92,7 +92,7 @@ After running the code, the terminal will show the loss per epoch for each netwo
 This graph shows the progression of the loss for the Cross-Entropy method. The loss decreases as the neural network learns to classify digits 0 and 8.
 
 <p align="center"> 
-<img src="screenshots/cross_entropy_loss.png" width="80%" height="80%" alt="Cross-Entropy Loss"> 
+<img src="screenshots/cross_entropy_loss.png" width="100%" height="100%" alt="Cross-Entropy Loss"> 
 </p>
 
 #### 2. Exponential Loss over Epochs
@@ -100,7 +100,7 @@ This graph shows the progression of the loss for the Cross-Entropy method. The l
 This graph illustrates the loss progression for the Exponential method. Similar to the Cross-Entropy loss, the Exponential loss decreases over time, suggesting that the model is improving its classification of digits 0 and 8.
 
 <p align="center"> 
-<img src="screenshots/exponential_loss.png" width="80%" height="80%" alt="Exponential Loss"> 
+<img src="screenshots/exponential_loss.png" width="100%" height="100%" alt="Exponential Loss"> 
 </p>
 
 #### 3. Terminal Output Example
