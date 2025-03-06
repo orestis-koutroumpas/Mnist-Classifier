@@ -33,7 +33,7 @@ The neural network has the following architecture:
 ### Input Layer
 784 neurons (corresponding to the 28x28 pixel values of the images).
 ### Hidden Layer
-300 neurons with ReLU activation function..
+300 neurons with ReLU activation function.
 ### Output Layer 
 1 neuron with Sigmoid activation function (binary output indicating whether the image is a 0 or an 8).
 
