@@ -110,10 +110,11 @@ This graph illustrates the loss progression for the Exponential method. Similar 
 
 As the model trains, the terminal will show the following output for each epoch. The loss for each epoch and the smoothed loss will be displayed, helping you track the training progress
 
+```
 Epoch 0, Loss: 0.5974, Smoothed Loss: 0.5974
 Epoch 1, Loss: 0.5687, Smoothed Loss: 0.5831
 ...
-
+```
 
 
 Once training is complete, the error percentages for both digits (0 and 8) will be computed. Here's an example of the final output:
