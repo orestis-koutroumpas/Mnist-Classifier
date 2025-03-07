@@ -117,7 +117,6 @@ Epoch 1, Loss: 0.5687, Smoothed Loss: 0.5831
 ```
 
 Once training is complete, the error percentages for both digits (0 and 8) will be computed. Here's an example of the final output:
-
 ```
 Cross-Entropy: Error Percentage for 0 = 0.51 %, Error Percentage for 8 = 0.72 %, Total = 0.61 %
 Exponential: Error Percentage for 0 = 1.22 %, Error Percentage for 8 = 0.72 %, Total = 0.97%
