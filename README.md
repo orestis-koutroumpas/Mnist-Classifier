@@ -67,21 +67,17 @@ To run the project, you need Python 3.x installed and the following Python packa
 
 ### 1. Clone the repository:
 
-```
-git clone https://github.com/orestis-koutroumpas/Mnist-Classifier.git
-```
+    git clone https://github.com/orestis-koutroumpas/Mnist-Classifier.git
+
 
 ### 2. Move into directory:
-
-```
-cd Mnist-Classifier 
-```
+    cd Mnist-Classifier 
 
 ### 3. Run the Code:
 
 Execute the Python script to train the model and view the results:
 
-```python mnist_classifier.py```
+    python mnist_classifier.py
 
 The script will:
 
